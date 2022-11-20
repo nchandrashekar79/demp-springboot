@@ -25,10 +25,6 @@ public class HelloController {
 		return hostAddr;
 	}
 	
-	@GetMapping("/hai/{text")
-	public String hai(@PathVariable String text) {
-		return "Hello"+text;
-	}
 	
 	@GetMapping("/api/{id}")
 	@ResponseBody
